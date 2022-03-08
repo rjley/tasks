@@ -19,7 +19,7 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript by Riley Johnson
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
