@@ -60,7 +60,12 @@ export function RockQuiz(): JSX.Element {
                                     What year did the Beatles come to America?
                                 </h4>
                                 <MultipleChoiceQuestion
-                                    options={["A. 1964", "B. 1973", "C. 1950"]}
+                                    options={[
+                                        "",
+                                        "A. 1964",
+                                        "B. 1973",
+                                        "C. 1950"
+                                    ]}
                                     expectedAnswer="A. 1964"
                                 ></MultipleChoiceQuestion>
                                 <h4>
@@ -73,6 +78,7 @@ export function RockQuiz(): JSX.Element {
                                 </h4>
                                 <MultipleChoiceQuestion
                                     options={[
+                                        "",
                                         "A. Couldn't think of a cool name",
                                         "B. They were Bob Dylan's band",
                                         "C. They were Tom Petty's band"

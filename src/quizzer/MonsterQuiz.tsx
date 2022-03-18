@@ -60,6 +60,7 @@ export function MonsterQuiz(): JSX.Element {
                                 <h4>Which mythical creature is the tallest?</h4>
                                 <MultipleChoiceQuestion
                                     options={[
+                                        "",
                                         "A. Bigfoot",
                                         "B. Sasquatch",
                                         "C. Yeti"
@@ -69,6 +70,7 @@ export function MonsterQuiz(): JSX.Element {
                                 <h4>Which mythical creature is the fastest?</h4>
                                 <MultipleChoiceQuestion
                                     options={[
+                                        "",
                                         "A. Chupacabra",
                                         "B. Lochness Monster",
                                         "C. King Kong"
@@ -80,6 +82,7 @@ export function MonsterQuiz(): JSX.Element {
                                 </h4>
                                 <MultipleChoiceQuestion
                                     options={[
+                                        "",
                                         "A. Bigfoot",
                                         "B. Sasquatch",
                                         "C. Yeti"
