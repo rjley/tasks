@@ -20,6 +20,7 @@ import React /*, { useState } */ from "react";
 //import { Quizzer } from "./quizzer/Quizzer";
 import { MonsterQuiz } from "../quizzer/MonsterQuiz";
 import { RockQuiz } from "../quizzer/RockQuiz";
+import { SongQuiz } from "../quizzer/SongQuiz";
 
 /*export function startQuiz(): JSX.Element {
     const [revealed, setRevealed] = useState<boolean>(false);
@@ -85,6 +86,7 @@ export function Quizzer(): JSX.Element {
             <h3>Quizzer</h3>
             <MonsterQuiz></MonsterQuiz>
             <RockQuiz></RockQuiz>
+            <SongQuiz></SongQuiz>
         </div>
     );
 }
