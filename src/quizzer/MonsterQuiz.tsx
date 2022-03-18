@@ -105,7 +105,6 @@ export function MonsterQuiz(): JSX.Element {
                 </Button>
                 <div>Attempts left: {value}</div>
             </div>
-            <Button onClick={flipReveal}>Reveal Answer</Button>
         </div>
     );
 }
