@@ -65,7 +65,7 @@ function UpdateStudent({ student, setStudent }: student): JSX.Element {
 
 export function EditMode(): JSX.Element {
     const [visible, setVisible] = useState<boolean>(false);
-    const [name, setName] = useState<string>("Name");
+    const [name, setName] = useState<string>("Your Name");
     const [student, setStudent] = useState<boolean>(true);
     return (
         <div>
@@ -78,7 +78,7 @@ export function EditMode(): JSX.Element {
                 <UpdateVisibility
                     visible={visible}
                     setVisible={setVisible}
-                ></UpdateVisibility>{" "}
+                ></UpdateVisibility>
                 {visible && (
                     <div>
                         <UpdateName name={name} setName={setName}></UpdateName>
