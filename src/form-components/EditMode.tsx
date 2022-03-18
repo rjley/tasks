@@ -78,7 +78,7 @@ export function EditMode(): JSX.Element {
                 <UpdateVisibility
                     visible={visible}
                     setVisible={setVisible}
-                ></UpdateVisibility>{" "}
+                ></UpdateVisibility>
                 {visible && (
                     <div>
                         <UpdateName name={name} setName={setName}></UpdateName>
