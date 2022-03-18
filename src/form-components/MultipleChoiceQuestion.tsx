@@ -18,7 +18,6 @@ export function MultipleChoiceQuestion({
     }
     return (
         <div>
-            <h3>Multiple Choice Question</h3>
             <Form.Group>
                 <Form.Label>Select the correct answer.</Form.Label>
                 <Form.Select value={option} onChange={updateOption}>
